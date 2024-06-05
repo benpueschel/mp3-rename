@@ -4,7 +4,7 @@ A simple go app to fetch mp3 metadata and
 ## Usage
 
 ```bash
-./walk-dir.sh [-a] <directory> | parallel --pipe "./mp3-rename [opts]"
+find <directory> | parallel --pipe "./mp3-rename [opts]"
 ```
 
 ## Command-Line Options
